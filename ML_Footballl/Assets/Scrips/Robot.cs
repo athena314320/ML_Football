@@ -16,7 +16,7 @@ public class Robot : Agent
     ///</summary>
     private Rigidbody rigBall;
 
-    private void start()
+    private void Start()
     {
         rigRobot = GetComponent<Rigidbody>();
         rigBall = GameObject.Find("足球").GetComponent<Rigidbody>();
